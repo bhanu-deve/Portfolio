@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Security Headers (also set these server-side for full protection) -->
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta http-equiv="X-Frame-Options" content="DENY" />
+  <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
+  <!-- CSP: adjust 'connect-src' once you know your EmailJS service_id domain -->
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src https://api.emailjs.com;" />
+
+  <title>Bhanu Prasad Samal | Developer</title>
+  <meta name="description" content="Full Stack Developer — Java, Spring Boot, React, Django. Building clean, scalable software." />
+
+  <!-- Preconnect for font performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Custom Cursor (desktop only — hidden via CSS on touch devices) -->
+<div id="cursor" aria-hidden="true"></div>
+<div id="cursor-ring" aria-hidden="true"></div>
+
+<!-- LOADER -->
+<div id="loader" role="status" aria-live="polite" aria-label="Loading portfolio">
+  <div class="loader-name" aria-hidden="true">
+    <span>B</span><span>H</span><span>A</span><span>N</span><span>U</span><span>&nbsp;</span>
+    <span>P</span><span>R</span><span>A</span><span>S</span><span>A</span><span>D</span><span>&nbsp;</span>
+    <span>S</span><span>A</span><span>M</span><span>A</span><span>L</span>
+  </div>
+  <div class="loader-role">Full Stack Developer</div>
+  <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+</div>
+
+<!-- NAV -->
+<nav role="navigation" aria-label="Main navigation">
+  <a href="#hero" class="nav-logo">BPS<span>.</span></a>
+
+  <!-- Mobile hamburger toggle -->
+  <button
+    id="navToggle"
+    class="nav-toggle"
+    aria-label="Toggle navigation menu"
+    aria-expanded="false"
+    aria-controls="navMenu"
+  >
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <ul class="nav-links" id="navMenu" role="list">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero" aria-label="Introduction">
+  <div class="grid-bg" aria-hidden="true"></div>
+
+  <div class="hero-left">
+    <div class="hero-tag">Available for Opportunities</div>
+    <h1 class="hero-name">
+      <span class="line1">Bhanu Prasad</span>
+      <span class="line2">Samal</span>
+    </h1>
+    <p class="hero-desc">
+      A <strong>Full Stack Developer</strong> passionate about building clean, scalable
+      software — from Java backends to React frontends. I turn ideas into real impact.
+    </p>
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-num">2+</span>
+        <span class="stat-label">Internships</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">10+</span>
+        <span class="stat-label">Technologies</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">7.01</span>
+        <span class="stat-label">CGPA</span>
+      </div>
+    </div>
+    <div class="hero-cta">
+      <a href="#contact" class="btn btn-primary">✉ Connect with Me</a>
+      <a href="https://github.com/bhanu-deve" target="_blank" rel="noopener noreferrer" class="btn btn-outline">⌥ GitHub</a>
+    </div>
+    <div class="hero-socials">
+      <a href="https://github.com/bhanu-deve" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub" aria-label="GitHub profile">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+      </a>
+      <a href="https://www.linkedin.com/in/bhanuprasadsamal1/" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn" aria-label="LinkedIn profile">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      </a>
+      <a href="mailto:bhanuprasadsamal@gmail.com" class="social-link" title="Email" aria-label="Send email">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
+      </a>
+    </div>
+  </div>
+
+  <div class="hero-right">
+    <div class="avatar-wrap">
+      <div class="avatar-ring" aria-hidden="true"></div>
+      <img
+        class="avatar-img"
+        src="DSC_0088.JPG"
+        alt="Portrait of Bhanu Prasad Samal"
+        width="380"
+        height="380"
+        loading="eager"
+        onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22380%22 height=%22380%22 viewBox=%220 0 380 380%22><circle cx=%22190%22 cy=%22190%22 r=%22190%22 fill=%22%23111827%22/><text x=%22190%22 y=%22210%22 text-anchor=%22middle%22 font-size=%2280%22 fill=%22%234f8dff%22 font-family=%22sans-serif%22>BPS</text></svg>'; this.onerror=null;"
+      />
+      <div class="avatar-badge">Open to Work</div>
+    </div>
+  </div>
+
+  <div class="scroll-indicator" aria-hidden="true">
+    <div class="scroll-line"></div>
+    scroll
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" aria-label="About me">
+  <div class="about-img-wrap reveal">
+    <img
+      class="about-img"
+      src="My_college_photo.jpg"
+      alt="Bhanu Prasad Samal at college"
+      width="500"
+      height="500"
+      loading="lazy"
+      onerror="this.closest('.about-img-wrap').style.display='none';"
+    />
+    <div class="about-img-tag">B.Tech 2021–2025</div>
+    <div class="about-img-overlay" aria-hidden="true"></div>
+    <div class="about-img-quote">"Building solutions that have a real impact."</div>
+  </div>
+  <div class="reveal" style="transition-delay:.15s">
+    <div class="section-tag">// about me</div>
+    <h2 class="section-title">The Dev Behind the Code</h2>
+    <p class="about-text">Hey! I'm Bhanu Prasad Samal — a final-year B.Tech student from GIET University, Odisha. I'm an enthusiastic and quick learner with a deep passion for software development and AI tools.</p>
+    <p class="about-text">I've had the opportunity to intern as a <strong style="color:var(--text)">Java Developer</strong> at RamanaSoft Pvt. Ltd., building Spring Boot REST APIs, and as a <strong style="color:var(--text)">Backend Developer</strong> with Edunet Foundation (AICTE), crafting a Django-based music web app.</p>
+    <p class="about-text">I speak Odia, English, Hindi, and Bengali — and code in a dozen languages. Always eager to grow, collaborate, and build things that matter.</p>
+    <div class="hero-socials" style="margin-top:1.5rem;">
+      <a href="https://github.com/bhanu-deve" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="font-size:.85rem;">GitHub →</a>
+      <a href="https://www.linkedin.com/in/bhanuprasadsamal1/" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="font-size:.85rem;">LinkedIn →</a>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" aria-label="Skills and technologies">
+  <div class="section-header reveal">
+    <div class="section-tag">// tech stack</div>
+    <h2 class="section-title">Skills &amp; Technologies</h2>
+    <div class="divider"></div>
+  </div>
+  <div class="skills-grid">
+    <div class="skill-card reveal"><div class="skill-icon" aria-hidden="true">☕</div><div class="skill-name">Java</div></div>
+    <div class="skill-card reveal" style="transition-delay:.05s"><div class="skill-icon" aria-hidden="true">🍃</div><div class="skill-name">Spring Boot</div></div>
+    <div class="skill-card reveal" style="transition-delay:.1s"><div class="skill-icon" aria-hidden="true">⚛️</div><div class="skill-name">React JS</div></div>
+    <div class="skill-card reveal" style="transition-delay:.12s"><div class="skill-icon" aria-hidden="true">🟨</div><div class="skill-name">JavaScript</div></div>
+    <div class="skill-card reveal" style="transition-delay:.15s"><div class="skill-icon" aria-hidden="true">🐍</div><div class="skill-name">Python</div></div>
+    <div class="skill-card reveal" style="transition-delay:.18s"><div class="skill-icon" aria-hidden="true">🎸</div><div class="skill-name">Django</div></div>
+    <div class="skill-card reveal" style="transition-delay:.21s"><div class="skill-icon" aria-hidden="true">🐬</div><div class="skill-name">MySQL</div></div>
+    <div class="skill-card reveal" style="transition-delay:.24s"><div class="skill-icon" aria-hidden="true">🌐</div><div class="skill-name">HTML/CSS</div></div>
+    <div class="skill-card reveal" style="transition-delay:.27s"><div class="skill-icon" aria-hidden="true">©️</div><div class="skill-name">C++</div></div>
+    <div class="skill-card reveal" style="transition-delay:.30s"><div class="skill-icon" aria-hidden="true">🔧</div><div class="skill-name">Git</div></div>
+    <div class="skill-card reveal" style="transition-delay:.33s"><div class="skill-icon" aria-hidden="true">🐧</div><div class="skill-name">Linux</div></div>
+    <div class="skill-card reveal" style="transition-delay:.36s"><div class="skill-icon" aria-hidden="true">🗄️</div><div class="skill-name">SQLite</div></div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" aria-label="Work experience">
+  <div class="section-header reveal">
+    <div class="section-tag">// experience</div>
+    <h2 class="section-title">Internship Experience</h2>
+    <div class="divider"></div>
+  </div>
+  <div class="exp-timeline">
+    <article class="exp-card reveal">
+      <div class="exp-header">
+        <div>
+          <div class="exp-role">Java Developer Intern</div>
+          <div class="exp-company">RamanaSoft Pvt. Ltd.</div>
+        </div>
+        <div class="exp-period">Jan 2025 – Jun 2025</div>
+      </div>
+      <ul class="exp-list">
+        <li>Built backend services and simple REST APIs using Spring Boot framework</li>
+        <li>Gained hands-on experience with MySQL for database design and queries</li>
+        <li>Collaborated in a team environment using Git for version control workflows</li>
+      </ul>
+    </article>
+    <article class="exp-card reveal" style="transition-delay:.1s">
+      <div class="exp-header">
+        <div>
+          <div class="exp-role">Web Development Intern (Django)</div>
+          <div class="exp-company">Edunet Foundation (AICTE)</div>
+        </div>
+        <div class="exp-period">Feb 2024 – Apr 2024</div>
+      </div>
+      <ul class="exp-list">
+        <li>Built a full music web application using Django as the primary backend framework</li>
+        <li>Implemented user authentication and database integration with SQLite</li>
+        <li>Enhanced problem-solving skills by handling real-world application features end-to-end</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" aria-label="Academic background">
+  <div class="section-header reveal">
+    <div class="section-tag">// education</div>
+    <h2 class="section-title">Academic Background</h2>
+    <div class="divider"></div>
+  </div>
+  <div class="edu-grid">
+    <div class="edu-card reveal">
+      <div class="edu-degree">Bachelor of Technology (B.Tech)</div>
+      <div class="edu-school">GIET University, Gunupur, Odisha</div>
+      <div class="edu-year">2021 – 2025</div>
+      <div class="edu-cgpa">CGPA: 7.01</div>
+    </div>
+    <div class="edu-card reveal" style="transition-delay:.1s">
+      <div class="edu-degree">CHSC (Class XII)</div>
+      <div class="edu-school">Hi-tech Higher Secondary School, Jajpur, Odisha</div>
+      <div class="edu-year">2018 – 2020</div>
+    </div>
+    <div class="edu-card reveal" style="transition-delay:.2s">
+      <div class="edu-degree">HSC (Class X)</div>
+      <div class="edu-school">Baruneswar High School, Arei, Jajpur</div>
+      <div class="edu-year">2015 – 2018</div>
+    </div>
+  </div>
+  <div class="achieve-card reveal" style="margin-top:3rem;">
+    <div class="achieve-icon" aria-hidden="true">🏆</div>
+    <div>
+      <div class="achieve-title">Guinness World Record Participant</div>
+      <div class="achieve-desc">GUVI Geek Network, IITM Research Park — Part of a record-setting event celebrating technology and learning.</div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" aria-label="Contact form">
+  <div class="contact-wrap">
+    <div class="reveal">
+      <div class="section-tag" style="text-align:center;justify-content:center;display:flex;">// let's connect</div>
+      <h2 class="section-title">Have a Project? <br/>Let's Talk.</h2>
+      <p style="color:var(--muted);margin-top:1rem;line-height:1.7;">Drop me a message and I'll get back to you as soon as possible. Always open to interesting opportunities and collaborations.</p>
+    </div>
+
+    <form
+      class="contact-form reveal"
+      id="contactForm"
+      style="transition-delay:.15s"
+      novalidate
+      autocomplete="off"
+    >
+      <!-- Honeypot field — hidden from real users, catches bots -->
+      <input
+        type="text"
+        id="hp_field"
+        name="hp_field"
+        aria-hidden="true"
+        tabindex="-1"
+        autocomplete="off"
+        style="display:none;"
+      />
+
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label" for="senderName">Your Name</label>
+          <input class="form-input" type="text" id="senderName" name="name" placeholder="John Doe" required maxlength="100" autocomplete="name" />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="senderEmail">Your Email</label>
+          <input class="form-input" type="email" id="senderEmail" name="email" placeholder="you@example.com" required maxlength="200" autocomplete="email" />
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="subject">Subject</label>
+        <input class="form-input" type="text" id="subject" name="subject" placeholder="Job Opportunity / Collaboration..." required maxlength="200" />
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="message">Message</label>
+        <textarea class="form-textarea" id="message" name="message" placeholder="Tell me about your project or opportunity..." required maxlength="2000"></textarea>
+      </div>
+      <button type="submit" class="btn-send" id="sendBtn">✉ Send Message</button>
+      <div class="form-status" id="formStatus" role="alert" aria-live="polite"></div>
+    </form>
+
+    <div class="hero-socials" style="justify-content:center;margin-top:2rem;">
+      <a href="https://github.com/bhanu-deve" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+      </a>
+      <a href="https://www.linkedin.com/in/bhanuprasadsamal1/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      </a>
+      <a href="mailto:bhanuprasadsamal@gmail.com" class="social-link" aria-label="Email">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
+      </a>
+      <a href="tel:+918018931867" class="social-link" aria-label="Call +91 80189 31867">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.42 2 2 0 0 1 3.58 1.25h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6.17 6.17l.82-.82a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-copy">© 2025 <span>Bhanu Prasad Samal</span>. Built with ❤️ &amp; code.</div>
+  <div class="footer-links">
+    <a href="https://github.com/bhanu-deve" target="_blank" rel="noopener noreferrer">GitHub</a>
+    <a href="https://www.linkedin.com/in/bhanuprasadsamal1/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    <a href="mailto:bhanuprasadsamal@gmail.com">Email</a>
+  </div>
+</footer>
+
+<!-- Deferred script for best performance -->
+<script src="script.js" defer></script>
+</body>
+</html>
