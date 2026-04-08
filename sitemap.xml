@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://bhanu-deve.github.io/Portfolio/</loc>
+    <lastmod>2025-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://bhanu-deve.github.io/Portfolio/DSC_0088.JPG</image:loc>
+      <image:title>Bhanu Prasad Samal — Full Stack Developer</image:title>
+      <image:caption>Portrait of Bhanu Prasad Samal, Full Stack Developer from Odisha, India</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://bhanu-deve.github.io/Portfolio/My_college_photo.jpg</image:loc>
+      <image:title>Bhanu Prasad Samal at GIET University</image:title>
+      <image:caption>Bhanu Prasad Samal at GIET University, Gunupur, Odisha — B.Tech 2021-2025</image:caption>
+    </image:image>
+  </url>
+</urlset>
