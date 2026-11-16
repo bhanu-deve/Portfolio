@@ -3,45 +3,45 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#050816" />
 
-  <!-- ══════════════════════════════════════════
-       PRIMARY SEO META TAGS
-  ══════════════════════════════════════════ -->
-  <title>Bhanu Prasad Samal | Full Stack Developer — Java, Spring Boot, React</title>
-  <meta name="description" content="Bhanu Prasad Samal is a Full Stack Developer from Odisha, India specializing in Java, Spring Boot, React JS, Python and Django. Available for opportunities — view portfolio, projects and contact." />
-  <meta name="keywords" content="Bhanu Prasad Samal, Bhanu Samal, Full Stack Developer Odisha, Java Developer India, Spring Boot Developer, React Developer, GIET University, bhanuprasadsamal, bhanu-deve" />
+  <!-- Security: CSP + referrer policy. (X-Frame-Options can only be set as an HTTP header, not in <meta>.)
+       ws://localhost / ws://127.0.0.1 are only there so VS Code Live Server's auto-reload keeps working. -->
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://api.emailjs.com ws://localhost:* ws://127.0.0.1:*; object-src 'none'; base-uri 'self';" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+
+  <!-- Marks the page as JS-enabled so scroll-reveal styles only apply when script.js can run -->
+  <script>document.documentElement.classList.add('js');</script>
+
+  <!-- ══ PRIMARY SEO ══ -->
+  <title>Bhanu Prasad Samal | Full Stack Developer — Django, Spring Boot, React</title>
+  <meta name="description" content="Bhanu Prasad Samal is a Full Stack Developer and Technical Associate at Zaltix Soft Solutions, building scalable web applications with Django, Spring Boot, React, PostgreSQL, MongoDB and AWS." />
+  <meta name="keywords" content="Bhanu Prasad Samal, Bhanu Samal, Full Stack Developer, Django Developer, Spring Boot Developer, React Developer, Zaltix Soft Solutions, ZEDA, Odisha, India, bhanu-deve" />
   <meta name="author" content="Bhanu Prasad Samal" />
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
   <link rel="canonical" href="https://bhanu-deve.github.io/Portfolio/" />
 
-  <!-- ══════════════════════════════════════════
-       OPEN GRAPH (Facebook / LinkedIn / WhatsApp)
-  ══════════════════════════════════════════ -->
+  <!-- ══ OPEN GRAPH ══ -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://bhanu-deve.github.io/Portfolio/" />
   <meta property="og:title" content="Bhanu Prasad Samal | Full Stack Developer" />
-  <meta property="og:description" content="Full Stack Developer from Odisha, India. Java, Spring Boot, React JS, Python, Django. 2+ internships, 10+ technologies. Open to work." />
-  <meta property="og:image" content="https://bhanu-deve.github.io/Portfolio/DSC_0088.JPG" />
+  <meta property="og:description" content="Full Stack Developer and Technical Associate at Zaltix Soft Solutions. Django, Spring Boot, React, PostgreSQL, MongoDB and AWS." />
+  <meta property="og:image" content="https://bhanu-deve.github.io/Portfolio/linkedin_blue.jpg" />
   <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="Bhanu Prasad Samal — Full Stack Developer" />
-  <meta property="og:site_name" content="Bhanu Prasad Samal Portfolio" />
+  <meta property="og:image:height" content="1200" />
+  <meta property="og:image:alt" content="Portrait of Bhanu Prasad Samal, Full Stack Developer" />
+  <meta property="og:site_name" content="Bhanu Prasad Samal — Portfolio" />
   <meta property="og:locale" content="en_IN" />
 
-  <!-- ══════════════════════════════════════════
-       TWITTER CARD
-  ══════════════════════════════════════════ -->
-  <meta name="twitter:card" content="summary_large_image" />
+  <!-- ══ TWITTER CARD ══ -->
+  <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Bhanu Prasad Samal | Full Stack Developer" />
-  <meta name="twitter:description" content="Full Stack Developer — Java, Spring Boot, React JS, Python, Django. Open to work." />
-  <meta name="twitter:image" content="https://bhanu-deve.github.io/Portfolio/DSC_0088.JPG" />
-  <meta name="twitter:image:alt" content="Bhanu Prasad Samal" />
+  <meta name="twitter:description" content="Full Stack Developer — Django, Spring Boot, React, PostgreSQL, MongoDB, AWS." />
+  <meta name="twitter:image" content="https://bhanu-deve.github.io/Portfolio/linkedin_blue.jpg" />
+  <meta name="twitter:image:alt" content="Portrait of Bhanu Prasad Samal" />
 
-  <!-- ══════════════════════════════════════════
-       STRUCTURED DATA — Person Schema (JSON-LD)
-       This is the most powerful SEO signal for
-       Google to know exactly who this page is about
-  ══════════════════════════════════════════ -->
+  <!-- ══ STRUCTURED DATA ══ -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -49,383 +49,702 @@
     "name": "Bhanu Prasad Samal",
     "alternateName": ["Bhanu Samal", "bhanuprasadsamal"],
     "url": "https://bhanu-deve.github.io/Portfolio/",
-    "image": "https://bhanu-deve.github.io/Portfolio/DSC_0088.JPG",
+    "image": "https://bhanu-deve.github.io/Portfolio/linkedin_blue.jpg",
     "sameAs": [
       "https://github.com/bhanu-deve",
       "https://www.linkedin.com/in/bhanuprasadsamal1/"
     ],
-    "jobTitle": "Full Stack Developer",
-    "description": "Full Stack Developer from Odisha, India specializing in Java, Spring Boot, React JS, Python and Django.",
+    "jobTitle": "Technical Associate",
+    "description": "Full Stack Developer from Odisha, India working with Django, Spring Boot, React, PostgreSQL, MongoDB and AWS.",
     "email": "bhanuprasadsamal@gmail.com",
     "telephone": "+918018931867",
     "nationality": "Indian",
-    "address": {
-      "@type": "PostalAddress",
-      "addressRegion": "Odisha",
-      "addressCountry": "IN"
-    },
+    "address": { "@type": "PostalAddress", "addressRegion": "Odisha", "addressCountry": "IN" },
     "alumniOf": {
       "@type": "CollegeOrUniversity",
       "name": "GIET University",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Gunupur",
-        "addressRegion": "Odisha",
-        "addressCountry": "IN"
-      }
+      "address": { "@type": "PostalAddress", "addressLocality": "Gunupur", "addressRegion": "Odisha", "addressCountry": "IN" }
     },
-    "knowsAbout": ["Java", "Spring Boot", "React JS", "JavaScript", "Python", "Django", "MySQL", "HTML", "CSS", "Git", "Linux", "SQLite", "C++"],
-    "hasOccupation": {
-      "@type": "Occupation",
-      "name": "Full Stack Developer",
-      "occupationLocation": {
-        "@type": "Country",
-        "name": "India"
-      }
-    },
-    "worksFor": [
-      {
-        "@type": "Organization",
-        "name": "RamanaSoft Pvt. Ltd."
-      }
-    ]
+    "worksFor": { "@type": "Organization", "name": "Zaltix Soft Solutions Private Limited" },
+    "knowsAbout": ["Java", "Spring Boot", "JavaScript", "React", "Python", "Django", "Node.js", "PostgreSQL", "MongoDB", "MySQL", "Oracle SQL", "AWS", "Docker", "Linux", "Git", "HTML", "CSS"]
   }
   </script>
-
-  <!-- ══════════════════════════════════════════
-       STRUCTURED DATA — WebSite Schema
-  ══════════════════════════════════════════ -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Bhanu Prasad Samal — Portfolio",
     "url": "https://bhanu-deve.github.io/Portfolio/",
-    "description": "Official portfolio website of Bhanu Prasad Samal, Full Stack Developer from Odisha, India.",
-    "author": {
-      "@type": "Person",
-      "name": "Bhanu Prasad Samal"
-    }
+    "description": "Portfolio of Bhanu Prasad Samal, Full Stack Developer from Odisha, India.",
+    "author": { "@type": "Person", "name": "Bhanu Prasad Samal" }
   }
   </script>
 
-  <!-- Security Headers -->
-  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
-  <meta http-equiv="X-Frame-Options" content="DENY" />
-  <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
-  <meta http-equiv="Content-Security-Policy"
-    content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src https://fonts.gstatic.com; img-src 'self' data: https:; connect-src https://api.emailjs.com;" />
-
-  <!-- Preconnect for font performance -->
-  <link rel="icon" type="image/x-icon" href="man.png">
+  <!-- Icons, fonts, stylesheet -->
+  <link rel="icon" type="image/png" href="man.png" />
+  <link rel="apple-touch-icon" href="man.png" />
+  <link rel="preload" as="image" href="linkedin_blue.jpg" fetchpriority="high" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
-
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Sora:wght@600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-<!-- Custom Cursor -->
-<div id="cursor" aria-hidden="true"></div>
-<div id="cursor-ring" aria-hidden="true"></div>
+<!-- ══ SVG ICON SPRITE (referenced with <use href="#i-…">) ══ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-github" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.42 2 2 0 0 1 3.58 1.25h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6.17 6.17l.82-.82a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+    <symbol id="i-arrow-right" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></symbol>
+    <symbol id="i-arrow-up" viewBox="0 0 24 24"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></symbol>
+    <symbol id="i-server" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></symbol>
+    <symbol id="i-layers" viewBox="0 0 24 24"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></symbol>
+    <symbol id="i-database" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></symbol>
+    <symbol id="i-cloud" viewBox="0 0 24 24"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></symbol>
+    <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></symbol>
+    <symbol id="i-cap" viewBox="0 0 24 24"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></symbol>
+    <symbol id="i-wrench" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></symbol>
+    <symbol id="i-monitor" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></symbol>
+  </defs>
+</svg>
 
-<!-- LOADER -->
-<div id="loader" role="status" aria-live="polite" aria-label="Loading portfolio">
-  <div class="loader-name" aria-hidden="true">
-    <span>B</span><span>H</span><span>A</span><span>N</span><span>U</span><span>&nbsp;</span>
-    <span>P</span><span>R</span><span>A</span><span>S</span><span>A</span><span>D</span><span>&nbsp;</span>
-    <span>S</span><span>A</span><span>M</span><span>A</span><span>L</span>
-  </div>
-  <div class="loader-role">Full Stack Developer</div>
-  <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="page-progress" id="pageProgress" aria-hidden="true"></div>
+
+<!-- ══ BACKGROUND: grid, light orbs, floating particles (all decorative) ══ -->
+<div class="bg" aria-hidden="true">
+  <div class="bg-grid"></div>
+  <span class="orb orb-1"></span>
+  <span class="orb orb-2"></span>
+  <span class="orb orb-3"></span>
+  <div class="particles" id="particles"></div>
 </div>
+<div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
 
-<!-- NAV -->
-<nav role="navigation" aria-label="Main navigation">
-  <a href="#hero" class="nav-logo" aria-label="Bhanu Prasad Samal — Home">BPS<span>.</span></a>
+<!-- ══ A. NAVIGATION ══ -->
+<header class="site-header" id="siteHeader">
+  <nav class="nav" aria-label="Main navigation">
+    <a class="brand" href="#home" aria-label="BPS — Bhanu Prasad Samal, back to top">BPS<span>.</span></a>
 
-  <button
-    id="navToggle"
-    class="nav-toggle"
-    aria-label="Toggle navigation menu"
-    aria-expanded="false"
-    aria-controls="navMenu"
-  >
-    <span></span><span></span><span></span>
-  </button>
+    <ul class="nav-menu" id="navMenu">
+      <li><a class="nav-link" href="#home">Home</a></li>
+      <li><a class="nav-link" href="#about">About</a></li>
+      <li><a class="nav-link" href="#skills">Skills</a></li>
+      <li><a class="nav-link" href="#projects">Projects</a></li>
+      <li><a class="nav-link" href="#experience">Experience</a></li>
+      <li><a class="nav-link" href="#education">Education</a></li>
+      <li><a class="nav-link" href="#contact">Contact</a></li>
+    </ul>
 
-  <ul class="nav-links" id="navMenu" role="list">
-    <li><a href="#about">About</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#experience">Experience</a></li>
-    <li><a href="#education">Education</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
+    <a class="btn btn-primary btn-sm nav-cta" href="#contact">Let's Talk</a>
 
-<!-- HERO -->
-<section id="hero" aria-label="Bhanu Prasad Samal — Introduction">
-  <div class="grid-bg" aria-hidden="true"></div>
+    <button class="nav-toggle" id="navToggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
 
-  <div class="hero-left">
-    <div class="hero-tag">Available for Opportunities</div>
-    <h1 class="hero-name">
-      <span class="line1">Bhanu Prasad</span>
-      <span class="line2">Samal</span>
-    </h1>
-    <p class="hero-desc">
-      A <strong>Full Stack Developer</strong> passionate about building clean, scalable
-      software — from Java backends to React frontends. I turn ideas into real impact.
+<main id="main">
+
+  <!-- ══ B. HERO ══ -->
+  <section class="hero" id="home" aria-labelledby="hero-title">
+    <div class="container hero-grid">
+
+      <div class="hero-copy">
+        <p class="badge reveal"><span class="badge-dot" aria-hidden="true"></span>Available for Opportunities</p>
+
+        <h1 class="hero-title reveal" id="hero-title" style="--d:.08s">
+          <span>Bhanu Prasad</span>
+          <span class="gradient-text">Samal</span>
+        </h1>
+
+        <p class="hero-role reveal" style="--d:.14s">Full Stack Developer</p>
+
+        <p class="hero-desc reveal" style="--d:.2s">
+          I build scalable web applications, design reliable backend systems, and transform ideas into practical digital solutions.
+        </p>
+
+        <div class="hero-actions reveal" style="--d:.26s">
+          <a class="btn btn-primary" href="#projects">View My Work
+            <svg class="icon arrow" aria-hidden="true"><use href="#i-arrow-right"/></svg>
+          </a>
+          <a class="btn btn-glass" href="assets/Bhanu_Prasad_Samal_Resume.pdf" download data-resume>
+            <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg>Download Resume
+          </a>
+        </div>
+
+        <ul class="social-list reveal" style="--d:.32s" aria-label="Social links">
+          <li><a class="social-btn" href="https://github.com/bhanu-deve" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile" title="GitHub"><svg class="icon icon-fill" aria-hidden="true"><use href="#i-github"/></svg></a></li>
+          <li><a class="social-btn" href="https://www.linkedin.com/in/bhanuprasadsamal1/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile" title="LinkedIn"><svg class="icon icon-fill" aria-hidden="true"><use href="#i-linkedin"/></svg></a></li>
+          <li><a class="social-btn" href="mailto:bhanuprasadsamal@gmail.com" aria-label="Send an email" title="Email"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg></a></li>
+          <li><a class="social-btn" href="tel:+918018931867" aria-label="Call +91 80189 31867" title="Phone"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg></a></li>
+        </ul>
+      </div>
+
+      <div class="hero-visual reveal" style="--d:.15s">
+        <div class="portrait">
+          <span class="orbit orbit-1" aria-hidden="true"></span>
+          <span class="orbit orbit-2" aria-hidden="true"></span>
+          <span class="portrait-glow" aria-hidden="true"></span>
+
+          <div class="portrait-frame">
+            <img
+              src="linkedin_blue.jpg"
+              alt="Portrait of Bhanu Prasad Samal"
+              width="1200" height="1200"
+              fetchpriority="high"
+              decoding="async" />
+          </div>
+
+          <div class="float-card float-card--role glass">
+            <span class="icon-badge icon-badge--sm"><svg class="icon" aria-hidden="true"><use href="#i-briefcase"/></svg></span>
+            <span>
+              <strong>Technical Associate</strong>
+              <small>Zaltix Soft Solutions</small>
+            </span>
+          </div>
+
+          <div class="float-card float-card--code glass" aria-hidden="true">
+<pre><span class="tk-p">const</span> <span class="tk-k">dev</span> = {
+  <span class="tk-k">focus</span>: <span class="tk-s">"Full Stack"</span>,
+  <span class="tk-k">stack</span>: [<span class="tk-s">"Django"</span>, <span class="tk-s">"React"</span>]
+};</pre>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══ C. ABOUT ══ -->
+  <section class="section" id="about" aria-labelledby="about-title">
+    <div class="container about-grid">
+
+      <div class="about-panel glass reveal">
+        <span class="eyebrow">About Me</span>
+        <h2 class="h2" id="about-title">Turning Ideas Into <span class="gradient-text">Powerful Solutions</span></h2>
+        <p>
+          I'm a developer who works across the stack — frontend interfaces, backend services, databases and cloud
+          infrastructure — and I enjoy building applications that are dependable and straightforward to maintain.
+        </p>
+        <p>
+          I'm a Technical Associate at <strong>Zaltix Soft Solutions Private Limited</strong>, where I'm part of the team
+          building <strong>ZEDA (Zaltix Education Digital Alliance)</strong>, an education management platform. My work
+          there covers backend architecture, Django REST APIs, PostgreSQL and MongoDB, AWS infrastructure and API testing.
+        </p>
+        <p>
+          Before that, I interned at Ramanasoft, working on a collaborative Java and Spring Boot project backed by Oracle SQL.
+        </p>
+
+        <dl class="facts">
+          <div class="fact"><dt>Location</dt><dd>Odisha, India</dd></div>
+          <div class="fact"><dt>Current role</dt><dd>Technical Associate</dd></div>
+          <div class="fact"><dt>Company</dt><dd>Zaltix Soft Solutions</dd></div>
+          <div class="fact"><dt>Languages</dt><dd>Odia, English, Hindi, Bengali</dd></div>
+        </dl>
+      </div>
+
+      <div class="about-cards">
+        <article class="feature-card glass spot reveal" style="--d:.08s">
+          <span class="icon-badge"><svg class="icon" aria-hidden="true"><use href="#i-server"/></svg></span>
+          <div>
+            <h3>Backend Development</h3>
+            <p>Designing APIs and services with Django and Spring Boot, and testing them with Postman.</p>
+          </div>
+        </article>
+        <article class="feature-card glass spot reveal" style="--d:.16s">
+          <span class="icon-badge"><svg class="icon" aria-hidden="true"><use href="#i-layers"/></svg></span>
+          <div>
+            <h3>Full Stack Engineering</h3>
+            <p>Connecting React and JavaScript interfaces to backend services, from the data layer to the UI.</p>
+          </div>
+        </article>
+        <article class="feature-card glass spot reveal" style="--d:.24s">
+          <span class="icon-badge"><svg class="icon" aria-hidden="true"><use href="#i-database"/></svg></span>
+          <div>
+            <h3>Database &amp; Cloud Technologies</h3>
+            <p>Working with PostgreSQL, MongoDB, MySQL and Oracle SQL, and with AWS infrastructure.</p>
+          </div>
+        </article>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══ D. SKILLS ══ -->
+  <section class="section section--alt" id="skills" aria-labelledby="skills-title">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Tech Stack</span>
+        <h2 class="h2" id="skills-title">Skills &amp; <span class="gradient-text">Technologies</span></h2>
+        <p class="lead">The languages, frameworks, databases and tools I work with day to day.</p>
+      </div>
+
+      <div class="skill-groups">
+
+        <article class="skill-group glass reveal">
+          <header class="skill-group-head">
+            <span class="icon-badge"><svg class="icon" aria-hidden="true"><use href="#i-monitor"/></svg></span>
+            <div><h3>Frontend</h3><p>Interfaces &amp; UI</p></div>
+          </header>
+          <ul class="skill-grid">
+            <li class="skill spot"><img src="assets/icons/html5.svg" alt="" width="40" height="40" loading="lazy" decoding="async" /><span>HTML</span></li>
+            <li class="skill spot"><img src="assets/icons/css3.svg" alt="" width="40" height="40" loading="lazy" decoding="async" /><span>CSS</span></li>
+            <li class="skill spot"><img src="assets/icons/javascript.svg" alt="" width="40" height="40" loading="lazy" decoding="async" /><span>JavaScript</span></li>
+            <li class="skill spot"><img src="assets/icons/react.svg" alt="" width="40" height="40" loading="lazy" decoding="async" /><span>React.js</span></li>
+          </ul>
+        </article>
+
+        <article class="skill-group glass reveal">
+          <header class="skill-group-head">
+            <span class="icon-badge"><svg class="icon" aria-hidden="true"><use href="#i-server"/></svg></span>
+            <div><h3>Backend</h3><p>Services &amp; APIs</p></div>
+          </header>
+          <ul class="skill-grid">
+            <li class="skill spot"><img src="assets/icons/python.svg" alt="" width="40" height="40" loading="lazy" decoding="async" /><span>Python</span></li>
+            <li class="skill spot"><img src="assets/icons/django.svg" alt="" width="40" height="40" loading="lazy" decoding="async" /><span>Django</span></li>
+            <li class="skill spot"><img src="assets/icons/java.svg" alt="" width="40" height="40" loading="lazy" decoding="async" /><span>Java</span></li>
+            <li class="skill spot"><img src="assets/icons/spring.svg" alt="" width="40" height="40" loading="lazy" decoding="async" /><span>Spring Boot</span></li>
+            <li class="skill spot"><img src="assets/icons/nodejs.svg" alt="" width="40" height="40" loading="lazy" decoding="async" /><span>Node.js</span></li>
+          </ul>
+        </article>
+
+        <article class="skill-group glass reveal">
+          <header class="skill-group-head">
+            <span class="icon-badge"><svg class="icon" aria-hidden="true"><use href="#i-database"/></svg></span>
+            <div><h3>Database</h3><p>Data storage</p></div>
+          </header>
+          <ul class="skill-grid">
+            <li class="skill spot"><img src="assets/icons/postgresql.svg" alt="" width="40" height="40" loading="lazy" decoding="async" /><span>PostgreSQL</span></li>
+            <li class="skill spot"><img src="assets/icons/mongodb.svg" alt="" width="40" height="40" loading="lazy" decoding="async" /><span>MongoDB</span></li>
+            <li class="skill spot"><img src="assets/icons/mysql.svg" alt="" width="40" height="40" loading="lazy" decoding="async" /><span>MySQL</span></li>
+            <li class="skill spot"><img class="is-wordmark" src="assets/icons/oracle.svg" alt="" width="84" height="16" loading="lazy" decoding="async" /><span>Oracle SQL</span></li>
+          </ul>
+        </article>
+
+        <article class="skill-group glass reveal">
+          <header class="skill-group-head">
+            <span class="icon-badge"><svg class="icon" aria-hidden="true"><use href="#i-wrench"/></svg></span>
+            <div><h3>DevOps &amp; Tools</h3><p>Infrastructure &amp; workflow</p></div>
+          </header>
+          <ul class="skill-grid">
+            <li class="skill spot"><img src="assets/icons/aws.svg" alt="" width="40" height="40" loading="lazy" decoding="async" /><span>AWS</span></li>
+            <li class="skill spot"><img class="is-wide" src="assets/icons/docker.svg" alt="" width="56" height="33" loading="lazy" decoding="async" /><span>Docker</span></li>
+            <li class="skill spot"><img src="assets/icons/linux.svg" alt="" width="40" height="40" loading="lazy" decoding="async" /><span>Linux</span></li>
+            <li class="skill spot"><img src="assets/icons/git.svg" alt="" width="40" height="40" loading="lazy" decoding="async" /><span>Git</span></li>
+            <li class="skill spot"><img src="assets/icons/github.svg" alt="" width="40" height="40" loading="lazy" decoding="async" /><span>GitHub</span></li>
+            <li class="skill spot"><img src="assets/icons/postman.svg" alt="" width="40" height="40" loading="lazy" decoding="async" /><span>Postman</span></li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ E. PROJECTS ══ -->
+  <section class="section" id="projects" aria-labelledby="projects-title">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Projects</span>
+        <h2 class="h2" id="projects-title">Featured <span class="gradient-text">Projects</span></h2>
+        <p class="lead">A selection of the applications I've worked on, from professional work to internship projects.</p>
+      </div>
+
+      <!--
+        To add a GitHub button to a project, put this inside its .project-actions:
+        <a class="btn btn-glass btn-sm" href="REAL_REPO_URL" target="_blank" rel="noopener noreferrer">
+          <svg class="icon icon-fill" aria-hidden="true"><use href="#i-github"/></svg>GitHub</a>
+        Only add it when you have a real URL.
+      -->
+      <ul class="project-grid">
+
+        <!-- Project 1 — ZEDA -->
+        <li class="reveal">
+          <article class="project-card glass spot">
+            <div class="project-visual">
+              <span class="project-tag">Work project · Zaltix Soft Solutions</span>
+              <div class="pv pv-zeda" aria-hidden="true">
+                <div class="pv-win">
+                  <div class="pv-bar"><i></i><i></i><i></i></div>
+                  <div class="pv-layout">
+                    <div class="pv-side"><i></i><i></i><i></i><i></i><i></i></div>
+                    <div class="pv-main">
+                      <div class="pv-tiles"><i></i><i></i><i></i></div>
+                      <div class="pv-chart">
+                        <i style="--h:35%"></i><i style="--h:55%"></i><i style="--h:42%"></i><i style="--h:72%"></i><i style="--h:60%"></i><i style="--h:88%"></i><i style="--h:68%"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>ZEDA — Education Management Platform</h3>
+              <p>An education management platform for school operations, students, teachers, academic activities and administrative workflows.</p>
+              <ul class="chips" aria-label="Technologies">
+                <li>Django</li><li>React</li><li>PostgreSQL</li><li>MongoDB</li><li>AWS</li>
+              </ul>
+              <div class="project-actions">
+                <button class="btn btn-primary btn-sm" type="button" data-project-open>View Project
+                  <svg class="icon arrow" aria-hidden="true"><use href="#i-arrow-right"/></svg>
+                </button>
+              </div>
+              <div class="project-details" hidden>
+                <h4>Overview</h4>
+                <p>An education management platform designed to manage school operations, students, teachers, academic activities, and administrative workflows. Built as part of my work at Zaltix Soft Solutions Private Limited.</p>
+                <h4>My contribution</h4>
+                <ul>
+                  <li>Backend development</li>
+                  <li>API architecture</li>
+                  <li>Database management</li>
+                  <li>Application development</li>
+                  <li>Integration</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </li>
+
+        <!-- Project 2 — Movie Ticket Booking -->
+        <li class="reveal" style="--d:.1s">
+          <article class="project-card glass spot">
+            <div class="project-visual">
+              <span class="project-tag">Internship project · Ramanasoft</span>
+              <div class="pv pv-movie" aria-hidden="true">
+                <div class="pv-cinema">
+                  <span class="pv-screen"></span>
+                  <div class="pv-seats">
+                    <i></i><i></i><i class="t"></i><i class="t"></i><i></i><i></i><i></i><i></i>
+                    <i></i><i class="t"></i><i></i><i></i><i class="s"></i><i class="s"></i><i></i><i></i>
+                    <i></i><i></i><i></i><i class="s"></i><i class="s"></i><i></i><i class="t"></i><i></i>
+                    <i class="t"></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="t"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>Movie Ticket Booking System</h3>
+              <p>A collaborative movie ticket booking application developed during my internship.</p>
+              <ul class="chips" aria-label="Technologies">
+                <li>Java</li><li>Spring Boot</li><li>Oracle SQL</li><li>REST APIs</li>
+              </ul>
+              <div class="project-actions">
+                <button class="btn btn-primary btn-sm" type="button" data-project-open>View Project
+                  <svg class="icon arrow" aria-hidden="true"><use href="#i-arrow-right"/></svg>
+                </button>
+              </div>
+              <div class="project-details" hidden>
+                <h4>Overview</h4>
+                <p>A collaborative movie ticket booking application developed during my internship at Ramanasoft.</p>
+                <h4>My contribution</h4>
+                <ul>
+                  <li>Backend development</li>
+                  <li>Database integration</li>
+                  <li>API testing</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </li>
+
+        <!-- Project 3 — Music web app (from the existing portfolio) -->
+        <li class="reveal" style="--d:.2s">
+          <article class="project-card glass spot">
+            <div class="project-visual">
+              <span class="project-tag">Internship project · Edunet Foundation (AICTE)</span>
+              <div class="pv pv-music" aria-hidden="true">
+                <div class="pv-player">
+                  <div class="pv-eq"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                  <div class="pv-ctrl"><span class="pv-play"></span><span class="pv-track"><b></b></span></div>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>Music Web Application</h3>
+              <p>A full music web application built with Django, with user authentication and database integration.</p>
+              <ul class="chips" aria-label="Technologies">
+                <li>Django</li><li>Python</li><li>SQLite</li>
+              </ul>
+              <div class="project-actions">
+                <button class="btn btn-primary btn-sm" type="button" data-project-open>View Project
+                  <svg class="icon arrow" aria-hidden="true"><use href="#i-arrow-right"/></svg>
+                </button>
+              </div>
+              <div class="project-details" hidden>
+                <h4>Overview</h4>
+                <p>A full music web application built with Django as the primary backend framework, created during my web development internship with Edunet Foundation (AICTE).</p>
+                <h4>My contribution</h4>
+                <ul>
+                  <li>Backend development with Django</li>
+                  <li>User authentication</li>
+                  <li>Database integration with SQLite</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+  <!-- ══ F. EXPERIENCE ══ -->
+  <section class="section section--alt" id="experience" aria-labelledby="experience-title">
+    <div class="container">
+      <div class="section-head section-head--center reveal">
+        <span class="eyebrow">Experience</span>
+        <h2 class="h2" id="experience-title">My Professional <span class="gradient-text">Journey</span></h2>
+      </div>
+
+      <ol class="timeline">
+        <li class="timeline-item reveal">
+          <span class="timeline-node timeline-node--current" aria-hidden="true"></span>
+          <article class="xp-card glass spot">
+            <header class="xp-head">
+              <div>
+                <h3>Technical Associate</h3>
+                <p class="xp-company">Zaltix Soft Solutions Private Limited</p>
+              </div>
+              <span class="xp-date"><time datetime="2025-12">December 2025</time> – Present</span>
+            </header>
+            <p>Working on ZEDA, the Zaltix Education Digital Alliance platform, across the backend and the infrastructure behind it:</p>
+            <ul class="xp-list">
+              <li>Backend development and application architecture</li>
+              <li>Django REST APIs and API testing</li>
+              <li>PostgreSQL and MongoDB databases</li>
+              <li>AWS infrastructure</li>
+            </ul>
+            <ul class="chips" aria-label="Technologies">
+              <li>Django REST</li><li>PostgreSQL</li><li>MongoDB</li><li>AWS</li>
+            </ul>
+          </article>
+        </li>
+
+        <li class="timeline-item reveal" style="--d:.1s">
+          <span class="timeline-node" aria-hidden="true"></span>
+          <article class="xp-card glass spot">
+            <header class="xp-head">
+              <div>
+                <h3>Software Development Intern</h3>
+                <p class="xp-company">Ramanasoft</p>
+              </div>
+              <span class="xp-date">2 Months</span>
+            </header>
+            <p>Worked with Java, Spring Boot, Oracle SQL, backend development and API testing as part of a collaborative project — a movie ticket booking application.</p>
+            <ul class="chips" aria-label="Technologies">
+              <li>Java</li><li>Spring Boot</li><li>Oracle SQL</li><li>API Testing</li>
+            </ul>
+          </article>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ══ G. EDUCATION ══ -->
+  <section class="section" id="education" aria-labelledby="education-title">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Education</span>
+        <h2 class="h2" id="education-title">Academic <span class="gradient-text">Background</span></h2>
+      </div>
+
+      <div class="edu-grid">
+        <article class="edu-main glass spot reveal">
+          <span class="icon-badge icon-badge--lg"><svg class="icon" aria-hidden="true"><use href="#i-cap"/></svg></span>
+          <div class="edu-main-body">
+            <p class="edu-kicker">Degree</p>
+            <h3>Bachelor of Technology (B.Tech)</h3>
+            <p class="edu-school">GIET University, Gunupur, Odisha</p>
+            <ul class="edu-meta">
+              <li><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg><span><time datetime="2021">2021</time> – <time datetime="2025">2025</time></span></li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-award"/></svg>CGPA 7.01</li>
+            </ul>
+          </div>
+          <div class="cgpa">
+            <span class="cgpa-label">CGPA</span>
+            <span class="cgpa-value gradient-text">7.01</span>
+          </div>
+        </article>
+
+        <div class="edu-side">
+          <article class="edu-mini glass spot reveal" style="--d:.1s">
+            <p class="edu-kicker">Class XII (CHSC)</p>
+            <h3>Hi-tech Higher Secondary School</h3>
+            <p>Jajpur, Odisha · <time datetime="2018">2018</time> – <time datetime="2020">2020</time></p>
+          </article>
+          <article class="edu-mini glass spot reveal" style="--d:.2s">
+            <p class="edu-kicker">Class X (HSC)</p>
+            <h3>Baruneswar High School</h3>
+            <p>Arei, Jajpur · <time datetime="2015">2015</time> – <time datetime="2018">2018</time></p>
+          </article>
+        </div>
+      </div>
+
+      <article class="achievement glass reveal" style="--d:.15s">
+        <span class="icon-badge"><svg class="icon" aria-hidden="true"><use href="#i-award"/></svg></span>
+        <div>
+          <h3>Guinness World Record Participant</h3>
+          <p>GUVI Geek Network, IITM Research Park — part of a record-setting event celebrating technology and learning.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ══ H. CONTACT ══ -->
+  <section class="section section--alt" id="contact" aria-labelledby="contact-title">
+    <div class="container contact-grid">
+
+      <div class="contact-info">
+        <div class="reveal">
+          <span class="eyebrow">Contact</span>
+          <h2 class="h2" id="contact-title">Let's Build Something <span class="gradient-text">Together</span></h2>
+          <p class="lead">Have an interesting project or opportunity? Let's connect and build something meaningful.</p>
+        </div>
+
+        <ul class="contact-cards">
+          <li class="reveal" style="--d:.05s">
+            <a class="contact-card glass spot" href="https://github.com/bhanu-deve" target="_blank" rel="noopener noreferrer">
+              <span class="icon-badge"><svg class="icon icon-fill" aria-hidden="true"><use href="#i-github"/></svg></span>
+              <span class="contact-card-text"><small>GitHub</small><strong>github.com/bhanu-deve</strong></span>
+            </a>
+          </li>
+          <li class="reveal" style="--d:.1s">
+            <a class="contact-card glass spot" href="https://www.linkedin.com/in/bhanuprasadsamal1/" target="_blank" rel="noopener noreferrer">
+              <span class="icon-badge"><svg class="icon icon-fill" aria-hidden="true"><use href="#i-linkedin"/></svg></span>
+              <span class="contact-card-text"><small>LinkedIn</small><strong>in/bhanuprasadsamal1</strong></span>
+            </a>
+          </li>
+          <li class="reveal" style="--d:.15s">
+            <a class="contact-card glass spot" href="mailto:bhanuprasadsamal@gmail.com">
+              <span class="icon-badge"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg></span>
+              <span class="contact-card-text"><small>Email</small><strong>bhanuprasadsamal@gmail.com</strong></span>
+            </a>
+          </li>
+          <li class="reveal" style="--d:.2s">
+            <a class="contact-card glass spot" href="tel:+918018931867">
+              <span class="icon-badge"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg></span>
+              <span class="contact-card-text"><small>Phone</small><strong>+91 80189 31867</strong></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <form class="contact-form glass reveal" id="contactForm" style="--d:.1s" novalidate autocomplete="on">
+        <!-- Honeypot: real users never see or fill this -->
+        <div class="hp" aria-hidden="true">
+          <label for="hp_field">Leave this field empty</label>
+          <input type="text" id="hp_field" name="hp_field" tabindex="-1" autocomplete="off" />
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="cf-name">Full Name</label>
+            <input class="input" type="text" id="cf-name" name="name" placeholder="Your full name" autocomplete="name" maxlength="100" required aria-describedby="cf-name-err" />
+            <p class="field-error" id="cf-name-err"></p>
+          </div>
+          <div class="field">
+            <label for="cf-email">Email Address</label>
+            <input class="input" type="email" id="cf-email" name="email" placeholder="you@example.com" autocomplete="email" maxlength="200" required aria-describedby="cf-email-err" />
+            <p class="field-error" id="cf-email-err"></p>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="cf-subject">Subject</label>
+          <input class="input" type="text" id="cf-subject" name="subject" placeholder="Project, opportunity or collaboration" maxlength="200" required aria-describedby="cf-subject-err" />
+          <p class="field-error" id="cf-subject-err"></p>
+        </div>
+
+        <div class="field">
+          <label for="cf-message">Message</label>
+          <textarea class="input" id="cf-message" name="message" rows="5" placeholder="Tell me a little about what you have in mind…" maxlength="2000" required aria-describedby="cf-message-err"></textarea>
+          <p class="field-error" id="cf-message-err"></p>
+        </div>
+
+        <button class="btn btn-primary btn-block" type="submit" id="sendBtn">
+          <span class="btn-label">Send Message</span>
+          <svg class="icon" aria-hidden="true"><use href="#i-send"/></svg>
+        </button>
+
+        <!-- Honest note: no email service is connected yet (see EMAILJS settings in script.js) -->
+        <p class="form-note" id="formNote">This form opens your email app with the message pre-filled, ready to send.</p>
+        <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
+      </form>
+
+    </div>
+  </section>
+
+</main>
+
+<!-- ══ I. FOOTER ══ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-panel glass">
+      <div class="footer-brand">
+        <a class="brand" href="#home" aria-label="BPS — Bhanu Prasad Samal, back to top">BPS<span>.</span></a>
+        <p>Full Stack Developer building scalable web applications and reliable backend systems.</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <h2 class="footer-title">Navigate</h2>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-social">
+        <h2 class="footer-title">Connect</h2>
+        <ul class="social-list" aria-label="Social links">
+          <li><a class="social-btn" href="https://github.com/bhanu-deve" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile" title="GitHub"><svg class="icon icon-fill" aria-hidden="true"><use href="#i-github"/></svg></a></li>
+          <li><a class="social-btn" href="https://www.linkedin.com/in/bhanuprasadsamal1/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile" title="LinkedIn"><svg class="icon icon-fill" aria-hidden="true"><use href="#i-linkedin"/></svg></a></li>
+          <li><a class="social-btn" href="mailto:bhanuprasadsamal@gmail.com" aria-label="Send an email" title="Email"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg></a></li>
+          <li><a class="social-btn" href="tel:+918018931867" aria-label="Call +91 80189 31867" title="Phone"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="footer-bottom">
+      <span>© <span id="year">2026</span> Bhanu Prasad Samal. All rights reserved.</span>
+      <span>Designed &amp; Developed by Bhanu Prasad Samal.</span>
     </p>
-    <div class="hero-stats">
-      <div class="stat">
-        <span class="stat-num">2+</span>
-        <span class="stat-label">Internships</span>
-      </div>
-      <div class="stat">
-        <span class="stat-num">10+</span>
-        <span class="stat-label">Technologies</span>
-      </div>
-      <div class="stat">
-        <span class="stat-num">7.01</span>
-        <span class="stat-label">CGPA</span>
-      </div>
-    </div>
-    <div class="hero-cta">
-      <a href="#contact" class="btn btn-primary">✉ Connect with Me</a>
-      <a href="https://github.com/bhanu-deve" target="_blank" rel="noopener noreferrer" class="btn btn-outline">⌥ GitHub</a>
-    </div>
-    <div class="hero-socials">
-      <a href="https://github.com/bhanu-deve" target="_blank" rel="noopener noreferrer" class="social-link" title="Bhanu Prasad Samal on GitHub" aria-label="GitHub profile of Bhanu Prasad Samal">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
-      </a>
-      <a href="https://www.linkedin.com/in/bhanuprasadsamal1/" target="_blank" rel="noopener noreferrer" class="social-link" title="Bhanu Prasad Samal on LinkedIn" aria-label="LinkedIn profile of Bhanu Prasad Samal">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-      </a>
-      <a href="mailto:bhanuprasadsamal@gmail.com" class="social-link" title="Email Bhanu Prasad Samal" aria-label="Email Bhanu Prasad Samal">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
-      </a>
-    </div>
-  </div>
-
-  <div class="hero-right">
-    <div class="avatar-wrap">
-      <div class="avatar-ring" aria-hidden="true"></div>
-      <img
-        class="avatar-img"
-        src="DSC_0088.JPG"
-        alt="Bhanu Prasad Samal — Full Stack Developer from Odisha, India"
-        title="Bhanu Prasad Samal"
-        width="380"
-        height="380"
-        loading="eager"
-        onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22380%22 height=%22380%22 viewBox=%220 0 380 380%22><circle cx=%22190%22 cy=%22190%22 r=%22190%22 fill=%22%23111827%22/><text x=%22190%22 y=%22210%22 text-anchor=%22middle%22 font-size=%2280%22 fill=%22%234f8dff%22 font-family=%22sans-serif%22>BPS</text></svg>'; this.onerror=null;"
-      />
-      <div class="avatar-badge">Open to Work</div>
-    </div>
-  </div>
-
-  <div class="scroll-indicator" aria-hidden="true">
-    <div class="scroll-line"></div>
-    scroll
-  </div>
-</section>
-
-<!-- ABOUT -->
-<section id="about" aria-label="About Bhanu Prasad Samal">
-  <div class="about-img-wrap reveal">
-    <img
-      class="about-img"
-      src="My_college_photo.jpg"
-      alt="Bhanu Prasad Samal at GIET University, Odisha — B.Tech 2021-2025"
-      title="Bhanu Prasad Samal at college"
-      width="500"
-      height="500"
-      loading="lazy"
-      onerror="this.closest('.about-img-wrap').style.display='none';"
-    />
-    <div class="about-img-tag">B.Tech 2021–2025</div>
-    <div class="about-img-overlay" aria-hidden="true"></div>
-    <div class="about-img-quote">"Building solutions that have a real impact."</div>
-  </div>
-  <div class="reveal" style="transition-delay:.15s">
-    <div class="section-tag">// about me</div>
-    <h2 class="section-title">The Dev Behind the Code</h2>
-    <p class="about-text">Hey! I'm <strong>Bhanu Prasad Samal</strong> — a final-year B.Tech student from GIET University, Gunupur, Odisha, India. I'm an enthusiastic and quick learner with a deep passion for software development and AI tools.</p>
-    <p class="about-text">I've had the opportunity to intern as a <strong style="color:var(--text)">Java Developer</strong> at RamanaSoft Pvt. Ltd., building Spring Boot REST APIs, and as a <strong style="color:var(--text)">Backend Developer</strong> with Edunet Foundation (AICTE), crafting a Django-based music web app.</p>
-    <p class="about-text">I speak Odia, English, Hindi, and Bengali — and code in a dozen languages. Always eager to grow, collaborate, and build things that matter.</p>
-    <div class="hero-socials" style="margin-top:1.5rem;">
-      <a href="https://github.com/bhanu-deve" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="font-size:.85rem;">GitHub →</a>
-      <a href="https://www.linkedin.com/in/bhanuprasadsamal1/" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="font-size:.85rem;">LinkedIn →</a>
-    </div>
-  </div>
-</section>
-
-<!-- SKILLS -->
-<section id="skills" aria-label="Bhanu Prasad Samal — Skills and technologies">
-  <div class="section-header reveal">
-    <div class="section-tag">// tech stack</div>
-    <h2 class="section-title">Skills &amp; Technologies</h2>
-    <div class="divider"></div>
-  </div>
-  <div class="skills-grid">
-    <div class="skill-card reveal"><div class="skill-icon" aria-hidden="true">☕</div><div class="skill-name">Java</div></div>
-    <div class="skill-card reveal" style="transition-delay:.05s"><div class="skill-icon" aria-hidden="true">🍃</div><div class="skill-name">Spring Boot</div></div>
-    <div class="skill-card reveal" style="transition-delay:.1s"><div class="skill-icon" aria-hidden="true">⚛️</div><div class="skill-name">React JS</div></div>
-    <div class="skill-card reveal" style="transition-delay:.12s"><div class="skill-icon" aria-hidden="true">🟨</div><div class="skill-name">JavaScript</div></div>
-    <div class="skill-card reveal" style="transition-delay:.15s"><div class="skill-icon" aria-hidden="true">🐍</div><div class="skill-name">Python</div></div>
-    <div class="skill-card reveal" style="transition-delay:.18s"><div class="skill-icon" aria-hidden="true">🎸</div><div class="skill-name">Django</div></div>
-    <div class="skill-card reveal" style="transition-delay:.21s"><div class="skill-icon" aria-hidden="true">🐬</div><div class="skill-name">MySQL</div></div>
-    <div class="skill-card reveal" style="transition-delay:.24s"><div class="skill-icon" aria-hidden="true">🌐</div><div class="skill-name">HTML/CSS</div></div>
-    <div class="skill-card reveal" style="transition-delay:.27s"><div class="skill-icon" aria-hidden="true">©️</div><div class="skill-name">C++</div></div>
-    <div class="skill-card reveal" style="transition-delay:.30s"><div class="skill-icon" aria-hidden="true">🔧</div><div class="skill-name">Git</div></div>
-    <div class="skill-card reveal" style="transition-delay:.33s"><div class="skill-icon" aria-hidden="true">🐧</div><div class="skill-name">Linux</div></div>
-    <div class="skill-card reveal" style="transition-delay:.36s"><div class="skill-icon" aria-hidden="true">🗄️</div><div class="skill-name">SQLite</div></div>
-  </div>
-</section>
-
-<!-- EXPERIENCE -->
-<section id="experience" aria-label="Bhanu Prasad Samal — Work experience">
-  <div class="section-header reveal">
-    <div class="section-tag">// experience</div>
-    <h2 class="section-title">Internship Experience</h2>
-    <div class="divider"></div>
-  </div>
-  <div class="exp-timeline">
-    <article class="exp-card reveal" itemscope itemtype="https://schema.org/OrganizationRole">
-      <div class="exp-header">
-        <div>
-          <div class="exp-role" itemprop="roleName">Java Developer Intern</div>
-          <div class="exp-company" itemprop="name">RamanaSoft Pvt. Ltd.</div>
-        </div>
-        <div class="exp-period"><time datetime="2025-01">Jan 2025</time> – <time datetime="2025-06">Jun 2025</time></div>
-      </div>
-      <ul class="exp-list">
-        <li>Built backend services and simple REST APIs using Spring Boot framework</li>
-        <li>Gained hands-on experience with MySQL for database design and queries</li>
-        <li>Collaborated in a team environment using Git for version control workflows</li>
-      </ul>
-    </article>
-    <article class="exp-card reveal" style="transition-delay:.1s" itemscope itemtype="https://schema.org/OrganizationRole">
-      <div class="exp-header">
-        <div>
-          <div class="exp-role" itemprop="roleName">Web Development Intern (Django)</div>
-          <div class="exp-company" itemprop="name">Edunet Foundation (AICTE)</div>
-        </div>
-        <div class="exp-period"><time datetime="2024-02">Feb 2024</time> – <time datetime="2024-04">Apr 2024</time></div>
-      </div>
-      <ul class="exp-list">
-        <li>Built a full music web application using Django as the primary backend framework</li>
-        <li>Implemented user authentication and database integration with SQLite</li>
-        <li>Enhanced problem-solving skills by handling real-world application features end-to-end</li>
-      </ul>
-    </article>
-  </div>
-</section>
-
-<!-- EDUCATION -->
-<section id="education" aria-label="Bhanu Prasad Samal — Academic background">
-  <div class="section-header reveal">
-    <div class="section-tag">// education</div>
-    <h2 class="section-title">Academic Background</h2>
-    <div class="divider"></div>
-  </div>
-  <div class="edu-grid">
-    <div class="edu-card reveal" itemscope itemtype="https://schema.org/EducationalOccupationalCredential">
-      <div class="edu-degree" itemprop="name">Bachelor of Technology (B.Tech)</div>
-      <div class="edu-school" itemprop="recognizedBy">GIET University, Gunupur, Odisha</div>
-      <div class="edu-year"><time datetime="2021">2021</time> – <time datetime="2025">2025</time></div>
-      <div class="edu-cgpa">CGPA: 7.01</div>
-    </div>
-    <div class="edu-card reveal" style="transition-delay:.1s">
-      <div class="edu-degree">CHSC (Class XII)</div>
-      <div class="edu-school">Hi-tech Higher Secondary School, Jajpur, Odisha</div>
-      <div class="edu-year"><time datetime="2018">2018</time> – <time datetime="2020">2020</time></div>
-    </div>
-    <div class="edu-card reveal" style="transition-delay:.2s">
-      <div class="edu-degree">HSC (Class X)</div>
-      <div class="edu-school">Baruneswar High School, Arei, Jajpur</div>
-      <div class="edu-year"><time datetime="2015">2015</time> – <time datetime="2018">2018</time></div>
-    </div>
-  </div>
-  <div class="achieve-card reveal" style="margin-top:3rem;">
-    <div class="achieve-icon" aria-hidden="true">🏆</div>
-    <div>
-      <div class="achieve-title">Guinness World Record Participant</div>
-      <div class="achieve-desc">GUVI Geek Network, IITM Research Park — Part of a record-setting event celebrating technology and learning.</div>
-    </div>
-  </div>
-</section>
-
-<!-- CONTACT -->
-<section id="contact" aria-label="Contact Bhanu Prasad Samal">
-  <div class="contact-wrap">
-    <div class="reveal">
-      <div class="section-tag" style="text-align:center;justify-content:center;display:flex;">// let's connect</div>
-      <h2 class="section-title">Have a Project? <br/>Let's Talk.</h2>
-      <p style="color:var(--muted);margin-top:1rem;line-height:1.7;">Drop me a message and I'll get back to you as soon as possible. Always open to interesting opportunities and collaborations.</p>
-    </div>
-
-    <form
-      class="contact-form reveal"
-      id="contactForm"
-      style="transition-delay:.15s"
-      novalidate
-      autocomplete="off"
-    >
-      <!-- Honeypot -->
-      <input type="text" id="hp_field" name="hp_field" aria-hidden="true" tabindex="-1" autocomplete="off" style="display:none;" />
-
-      <div class="form-row">
-        <div class="form-group">
-          <label class="form-label" for="senderName">Your Name</label>
-          <input class="form-input" type="text" id="senderName" name="name" placeholder="John Doe" required maxlength="100" autocomplete="name" />
-        </div>
-        <div class="form-group">
-          <label class="form-label" for="senderEmail">Your Email</label>
-          <input class="form-input" type="email" id="senderEmail" name="email" placeholder="you@example.com" required maxlength="200" autocomplete="email" />
-        </div>
-      </div>
-      <div class="form-group">
-        <label class="form-label" for="subject">Subject</label>
-        <input class="form-input" type="text" id="subject" name="subject" placeholder="Job Opportunity / Collaboration..." required maxlength="200" />
-      </div>
-      <div class="form-group">
-        <label class="form-label" for="message">Message</label>
-        <textarea class="form-textarea" id="message" name="message" placeholder="Tell me about your project or opportunity..." required maxlength="2000"></textarea>
-      </div>
-      <button type="submit" class="btn-send" id="sendBtn">✉ Send Message</button>
-      <div class="form-status" id="formStatus" role="alert" aria-live="polite"></div>
-    </form>
-
-    <div class="hero-socials" style="justify-content:center;margin-top:2rem;">
-      <a href="https://github.com/bhanu-deve" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Bhanu Prasad Samal on GitHub">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
-      </a>
-      <a href="https://www.linkedin.com/in/bhanuprasadsamal1/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Bhanu Prasad Samal on LinkedIn">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-      </a>
-      <a href="mailto:bhanuprasadsamal@gmail.com" class="social-link" aria-label="Email Bhanu Prasad Samal">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
-      </a>
-      <a href="tel:+918018931867" class="social-link" aria-label="Call Bhanu Prasad Samal">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.42 2 2 0 0 1 3.58 1.25h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6.17 6.17l.82-.82a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-      </a>
-    </div>
-  </div>
-</section>
-
-<!-- FOOTER -->
-<footer>
-  <div class="footer-copy">© 2025 <span>Bhanu Prasad Samal</span>. Built with ❤️ &amp; code.</div>
-  <div class="footer-links">
-    <a href="https://github.com/bhanu-deve" target="_blank" rel="noopener noreferrer">GitHub</a>
-    <a href="https://www.linkedin.com/in/bhanuprasadsamal1/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-    <a href="mailto:bhanuprasadsamal@gmail.com">Email</a>
   </div>
 </footer>
 
-<script src="script.js"></script>
+<!-- Back to top -->
+<button class="to-top" id="toTop" type="button" aria-label="Back to top">
+  <svg class="icon" aria-hidden="true"><use href="#i-arrow-up"/></svg>
+</button>
+
+<!-- Toast (resume-not-found, etc.) -->
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<!-- Project details dialog (filled from each card's hidden .project-details) -->
+<dialog class="project-dialog" id="projectDialog" aria-labelledby="projectDialogTitle">
+  <button class="dialog-close" type="button" aria-label="Close project details" data-dialog-close>
+    <svg class="icon" aria-hidden="true"><use href="#i-x"/></svg>
+  </button>
+  <div class="dialog-body" id="projectDialogBody"></div>
+</dialog>
+
+<script src="script.js" defer></script>
 </body>
 </html>
